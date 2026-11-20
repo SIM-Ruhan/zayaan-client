@@ -3,7 +3,7 @@ import Providers from "@/components/Providers";
 import Chrome from "@/components/Chrome";
 
 export const metadata = {
-  title: "Poshak — Clothing for the whole family",
+  title: "Zayaan — Clothing for the whole family",
   description: "Festive, daily and seasonal wear for men, women and kids. Delivered across Bangladesh.",
 };
 
