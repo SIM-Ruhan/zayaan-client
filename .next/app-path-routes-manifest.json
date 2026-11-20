@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/login/page": "/login",
+  "/checkout/page": "/checkout",
+  "/payment/fail/page": "/payment/fail",
+  "/payment/success/page": "/payment/success",
+  "/page": "/",
+  "/register/page": "/register",
+  "/all-products/page": "/all-products",
+  "/lp/[slug]/page": "/lp/[slug]",
+  "/dashboard/page": "/dashboard",
+  "/products/[id]/page": "/products/[id]"
+}

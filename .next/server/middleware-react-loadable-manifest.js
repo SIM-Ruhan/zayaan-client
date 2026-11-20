@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"components/Providers.js -> lenis":{"id":2691,"files":["static/chunks/691.33e46f81feff2b78.js"]}}';
