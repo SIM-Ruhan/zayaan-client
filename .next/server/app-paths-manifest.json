@@ -1,14 +1,10 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/login/page": "app/login/page.js",
   "/checkout/page": "app/checkout/page.js",
+  "/admin/page": "app/admin/page.js",
   "/payment/fail/page": "app/payment/fail/page.js",
   "/payment/success/page": "app/payment/success/page.js",
-  "/page": "app/page.js",
-  "/register/page": "app/register/page.js",
-  "/all-products/page": "app/all-products/page.js",
-  "/lp/[slug]/page": "app/lp/[slug]/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/products/[id]/page": "app/products/[id]/page.js"
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
+  "/all-products/page": "app/all-products/page.js"
 }

@@ -1,8 +1,8 @@
 {
   "components/Providers.js -> lenis": {
-    "id": 2691,
+    "id": "components/Providers.js -> lenis",
     "files": [
-      "static/chunks/691.33e46f81feff2b78.js"
+      "static/chunks/_app-pages-browser_node_modules_lenis_dist_lenis_mjs.js"
     ]
   }
 }

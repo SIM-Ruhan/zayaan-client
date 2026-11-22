@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { useApp } from "@/components/Providers";
+import { FcGoogle } from "react-icons/fc";
 
 export default function AuthForm({ mode }) {
   const sp = useSearchParams();
@@ -31,7 +32,7 @@ export default function AuthForm({ mode }) {
     <div className="mx-auto max-w-md px-4 py-14">
       <form onSubmit={submit} className="card space-y-4 p-7">
         <h1 className="text-2xl font-bold">{reg ? "Create your account" : "Welcome back"}</h1>
-        <button type="button" onClick={google} className="btn btn-outline w-full">Continue with Google</button>
+        <button type="button" onClick={google} className="btn btn-outline w-full"><div className="flex gap-1 items-center justify-center"><FcGoogle className="h-5 w-5"/> Continue with Google</div> </button>
         <p className="text-center text-xs text-ink/50">or use email</p>
         {reg && <div><label className="label" htmlFor="nm">Name</label><input id="nm" required className="input" value={f.name} onChange={set("name")} /></div>}
         <div><label className="label" htmlFor="em">Email</label><input id="em" type="email" required className="input" value={f.email} onChange={set("email")} /></div>
